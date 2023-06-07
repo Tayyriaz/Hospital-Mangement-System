@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bill</title>
+<style>
+body{
+background-color: black;
+}
+div{
+background-color: white;
+width: 500px;
+height: 750px;
+margin-top: 50px;
+margin-left: 400px;
+border-radius: 10px;
+}
+h1{
+font-family: cursive;
+text-align: center;
+padding: 15px;
+color: black;
+}
+
+div form label{
+margin-left: 50px;
+color: black;
+font-family: cursive;
+}
+div form .b{
+margin-left: 50px;
+padding: 5px;
+border: none;
+border-bottom: 2px solid black;
+width: 370px;
+outline: none;
+}
+div form input[type = "text"]{
+background-color: white;
+color: black;
+}
+
+
+#a{
+margin-left: 50px;
+width: 380px;
+margin-top: 20px;
+background-color:black;
+color: white;
+outline: none;
+border:none;
+padding: 10px;
+cursor: pointer;
+}
+.radio{
+			margin-left: 50px;
+			
+
+		}
+		span {
+			color: black;
+		}
+		.btn{
+			margin-left: 50px;
+			width: 380px;
+			margin-top: 20px;
+			background-color: black;
+			color: white;
+			outline: none;
+			border:none;
+			padding: 10px;
+			cursor: pointer;
+		}
+</style>
+</head>
+<body>
+
+<div>
+ <form>
+ 	
+  <h1>Bill</h1>
+	<label>Room-charges</label><br>
+	<input type="text" name="charges" class="b" placeholder="Enter Room charges"><br><br><br>
+	<label>Ward-charges</label><br>
+	<input type="text" name="ward" class="b" placeholder="Enter Ward charges"><br><br><br>
+	
+	<label>ICU-cost</label><br>
+	<input type="text" name="ICU-fee" class="b" placeholder="Enter ICU-fee"><br><br><br>
+	<label>surgeon-fee</label><br>
+	<input type="text" name="surgeon-fee" class="b" placeholder="Enter surgeon-fee"><br><br><br>
+	<label>Theatre-fee</label><br>
+	<input type="text" name="theatre" class="b" placeholder="Enter theatre"><br><br><br>
+	<label>Other Charges</label><br>
+	<input type="text" name="other" class="b" placeholder="Enter Other Charges"><br><br><br>
+	
+	<input type="submit" name="submit" value="submit" id="a"><br>
+ </form>
+</div>
+</body>
+</html>

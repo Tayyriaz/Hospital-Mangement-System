@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Report</title>
+	<style>
+		body{
+			background-color: black;
+		}
+		div{
+			background-color: white;
+			width: 500px;
+			height: 1150px;
+			margin-top: 50px;
+			margin-left: 400px;
+			border-radius: 10px;
+		}
+		h1{
+			font-family: cursive;
+			text-align: center;
+			color: black;
+			padding: 15px;
+		}
+		
+		div form label{
+			margin-left: 50px;
+			color: black;
+			font-family: cursive;
+		}
+		div form .input{
+			margin-left: 50px;
+			padding: 5px;
+			border: none;
+			border-bottom: 2px solid  black;
+			width: 370px;
+			outline: none;
+		}
+		div form input[type = "text"]{
+			background-color: white;
+			color: black;
+		}
+		
+		.radio{
+			margin-left: 50px;
+			
+
+		}
+		span {
+			color: black;
+		}
+		.btn{
+			margin-left: 50px;
+			width: 380px;
+			margin-top: 20px;
+			background-color: black;
+			color: white;
+			outline: none;
+			border:none;
+			padding: 10px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+		
+		<div>
+		  <form method="POST" action="Report2.php">
+		  		<h1>Report</h1>
+		  		<br><br>
+			    <label for="name">Name</label><br>
+			    <input type="text" id="name" name="name" placeholder="Enter name" class="input"><br><br>
+
+			    <label for="SSN">SSN</label><br>
+			    <input type="text" id="SSN" name="SSN" placeholder="Enter SSN" class="input"><br><br>
+
+			    <label for="pat-no">Pat-no</label><br>
+			    <input type="text" id="pat-no" name="pat-no" placeholder="Enter pat-no " class="input"><br><br>
+
+			    <label for="age">Age</label><br>
+			    <input type="text" id="age" name="age" placeholder="Enter age" class="input"><br><br>
+
+			    <label for="female">Gender</label><br>
+			    <input type="radio" id="female" name="rad1" class="radio" checked><span>Male</span><br>
+			    <input type="radio" id="male" name="rad1" class="radio" ><span>Female</span><br><br>
+
+			    <label for="med-condition-before">med-condition-before</label><br>
+			    <input type="text" id="medconditionbefore" name="med-condition-before" placeholder="med-condition-before" class="input"><br><br>
+
+			    <label for="med-cond-after">med-cond-after</label><br>
+			    <input type="text" id="medcondafter" name="medcondafter" placeholder="med-cond-after " class="input"><br><br>
+
+			    <label for="treatment-given">treatment-given</label><br>
+			    <input type="text" id="treatment-given" name="treatmentgiven" placeholder="treatment-given " class="input"><br><br>
+
+			    <label for="medicines-to-give">medicines-to-give</label><br>
+			    <input type="text" id="medicines-to-give" name="medicinestogive" placeholder="medicines-to-give " class="input"><br><br>
+
+			    <label for="lab-test">lab-test</label><br>
+			    <input type="text" id="lab-test" name="labtest" placeholder="lab-test " class="input"><br><br>
+
+			    <label for="female">go-home</label><br>
+			    <input type="radio" id="female" name="rad2" class="radio" checked><span>Yes</span><br>
+			    <input type="radio" id="male" name="rad2" class="radio" ><span>No</span><br>
+
+			    <label for="female">transfer-to-ward</label><br>
+			    <input type="radio" id="female" name="rad3" class="radio" checked><span>Yes</span><br>
+			    <input type="radio" id="male" name="rad3" class="radio" ><span>No</span><br>
+
+			    <label for="female">transfer-to-ICU</label><br>
+			    <input type="radio" id="female" name="rad5" class="radio" checked><span>Yes</span><br>
+			    <input type="radio" id="male" name="rad5" class="radio" ><span>No</span><br>
+
+			    <label for="female">stay-in-emergency</label><br>
+			    <input type="radio" id="female" name="rad4" class="radio" checked><span>Yes</span><br>
+			    <input type="radio" id="male" name="rad4" class="radio" ><span>No</span><br>
+
+
+			  
+			    <input type="submit" value="Submit" class="btn">
+		  </form>
+</div>
+</body>
+</html>
